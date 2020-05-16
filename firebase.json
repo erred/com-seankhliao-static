@@ -25,8 +25,17 @@
         ]
       },
       {
-        "source": "*.css",
-        "headers": [{ "key": "Cache-Control", "value": "max-age=86400" }]
+        "source": "base.css",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          },
+          {
+            "key": "Link",
+            "value": "</inconsolata-var.woff2>; rel=preload; as=font; type=font/woff2; crossorigin, </lora-var.woff2>; rel=preload; as=font; type=font/woff2; crossorigin"
+          }
+        ]
       },
       {
         "source": "*.woff2",
