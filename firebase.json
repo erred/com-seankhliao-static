@@ -14,6 +14,10 @@
       {
         "source": "*.woff2",
         "headers": [{ "key": "Cache-Control", "value": "max-age=2592000" }]
+      },
+      {
+        "source": "*.(jpg|jpeg|webp|png|ico)",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=2592000" }]
       }
     ]
   }
