@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "site": "com-seankhliao-static",
+    "public": "public/",
+    "headers": [
+      {
+        "source": "*",
+        "headers": [{ "key": "Strict-Transport-Security", "value": "max-age=63072000; preload" }]
+      },
+      {
+        "source": "*.css",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=86400" }]
+      }
+    ]
+  }
+}
