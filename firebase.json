@@ -10,6 +10,10 @@
       {
         "source": "*.css",
         "headers": [{ "key": "Cache-Control", "value": "max-age=86400" }]
+      },
+      {
+        "source": "*.woff2",
+        "headers": [{ "key": "Cache-Control", "value": "max-age=2592000" }]
       }
     ]
   }
