@@ -12,30 +12,32 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Inconsolata Regular"), local("Inconsolata-Regular"),
-    url(https://fonts.gstatic.com/s/inconsolata/v18/QldKNThLqRwH-OJ1UHjlKFle.ttf) format("truetype");
+  src: url(https://static.seankhliao.com/inconsolata-var.woff2) format("woff2-variations"),
+    url(https://static.seankhliao.com/inconsolata-400.woff2) format("woff2");
 }
 @font-face {
   font-family: "Inconsolata";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Inconsolata Bold"), local("Inconsolata-Bold"),
-    url(https://fonts.gstatic.com/s/inconsolata/v18/QldXNThLqRwH-OJ1UHjlKGHiw41u.ttf) format("truetype");
+  src: url(https://static.seankhliao.com/inconsolata-var.woff2) format("woff2-variations"),
+    url(https://static.seankhliao.com/inconsolata-700.woff2) format("woff2");
 }
 @font-face {
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuyJG.ttf) format("truetype");
+  src: url(https://static.seankhliao.com/lora-var.woff2) format("woff2-variations"),
+    url(https://static.seankhliao.com/lora-400.woff2) format("woff2");
 }
 @font-face {
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJG.ttf) format("truetype");
+  src: url(https://static.seankhliao.com/lora-var.woff2) format("woff2-variations"),
+    url(https://static.seankhliao.com/lora-700.woff2) format("woff2");
 }
 
 /* ===== layout general ===== */
@@ -105,6 +107,7 @@ main > pre,
 main > table {
   grid-column: 1 / span 3;
 }
+p img,
 picture img {
   width: 100%;
 }
