@@ -109,8 +109,10 @@ main > iframe,
 main > picture,
 main > pre,
 main > table {
-  margin-top: 25vh;
   grid-column: 1 / span 3;
+}
+main > picture {
+  margin-top: 25vh;
 }
 p img,
 picture img {
